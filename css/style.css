@@ -1,0 +1,115 @@
+/*
+    Tere Kwong
+    11/22/2021
+
+    css for index.html
+
+    Sources referenced: w3schools
+*/
+
+body {
+    min-width: 500px;
+    min-height: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+/* contains the form and submit button */
+#form {
+    margin: auto;
+}
+
+#frm1 fieldset p label span.error { color: red; }
+
+#form label {
+    text-align:left;
+    width: auto;
+	display: block;
+	float: none;
+}
+
+#form label span.error { color: red; }
+
+#form #scol, #lcol, #srow, #lrow{
+    width: 99%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#form #button{
+    margin-top: 5px;
+}
+
+#form table, tr, td {
+    width: 480px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    border-collapse: collapse;
+}
+
+/* the error message that is displayed for invalid inputs*/
+#error {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* contains the generated table and table for tab */
+#div1 {
+    margin: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 500px;
+    width: 500px;
+}
+
+#tabs {
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#div1 table, #tabs table {
+    background-color: white;
+}
+
+#div1 table, th, td , #tabs table, th, td{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#div1 th, #tabs th {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+
+#div1 th:first-child, #tabs th:first-child {
+    position: sticky;
+    left: 0;
+}
+
+#div1 td:first-child, #tabs td:first-child{
+    visibility: hidden;
+}
+
+#div1 td, #tabs td {
+    text-align: center;
+    padding: 3px;
+    font-weight:bold;
+}
+
+#div1 tr:nth-child(2n + 1), #tabs tr:nth-child(2n + 1) {
+    background-color: orange;
+}
+
+#div1 tr, #tabs tr {
+    background-color: lightblue;
+}
+
